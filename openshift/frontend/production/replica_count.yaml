@@ -1,0 +1,8 @@
+apiVersion: apps.openshift.io/v1
+kind: DeploymentConfig
+metadata:
+  labels:
+    app: frontend
+  name: frontend
+spec:
+  replicas: 2

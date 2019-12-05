@@ -1,0 +1,6 @@
+commonLabels:
+  app: backend
+resources:
+- deploymentconfig.yaml
+- service.yaml
+- imagestream.yaml

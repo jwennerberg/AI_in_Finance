@@ -1,0 +1,7 @@
+commonLabels:
+  app: frontend
+resources:
+- imagestream.yaml
+- deploymentconfig.yaml
+- service.yaml
+- route.yaml
